@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: rgb(210, 210, 210);
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vw;
+}
+
+button {
+    height: 5vw;
+    width: 5vw;
+    color: black;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: rgb(201,200,204);
+    cursor: pointer;
+}
+
+.equal{
+    width: 10vw;
+}
+
+.keypad{
+    box-shadow: 0px 15px 40px 0px #aaa;
+}
